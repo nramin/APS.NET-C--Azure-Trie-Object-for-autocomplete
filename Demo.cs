@@ -13,8 +13,8 @@ internal class Demo {
     trie.Add("trillswag");
     trie.Add("trillswagyolo");
     foreach(string word in trie.Find("hel", 10)) //We only want 10 maximum results back
-	{	
+    {
       Console.WriteLine(word);
-	}
+    }
   }
 }
